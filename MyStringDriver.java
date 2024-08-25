@@ -8,6 +8,10 @@ final class MyString {
         this.str = str;
     }
 
+    public static void demo() {
+        System.out.println("Hello world");
+    }
+
     public int length() {
         int count = 0;
         for (int i = 0; true; i++) {
